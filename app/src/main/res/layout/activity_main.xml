@@ -2,7 +2,7 @@
     <ImageView android:id="@+id/avatar" android:src="@drawable/jain_avatar" android:scaleType="centerCrop" android:layout_width="match_parent" android:layout_height="300dp"/>
     <TextView android:id="@+id/status" android:text="Jain • Offline-first" android:textColor="@color/jain_text" android:textSize="14sp" android:padding="6dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
     <ScrollView android:id="@+id/scroll" android:layout_weight="1" android:background="@color/jain_panel" android:layout_width="match_parent" android:layout_height="0dp"><TextView android:id="@+id/chat" android:textColor="@color/jain_text" android:textSize="16sp" android:padding="14dp" android:layout_width="match_parent" android:layout_height="wrap_content"/></ScrollView>
-    <EditText android:id="@+id/input" android:hint="জেইনকে লিখুন…" android:textColor="@color/jain_text" android:hintTextColor="#8892A4" android:background="@color/jain_panel" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/input" android:hint="জেইনকে লিখুন…" android:textColor="@color/jain_text" android:textColorHint="#8892A4" android:background="@color/jain_panel" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
     <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
         <Button android:id="@+id/mic" android:text="🎤" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"/>
         <Button android:id="@+id/send" android:text="Send" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"/>
