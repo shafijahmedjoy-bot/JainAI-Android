@@ -1,0 +1,6 @@
+1) Android Studio install করো।
+2) এই folder open করো।
+3) Gradle sync/build করে APK বানাও।
+4) Microphone permission allow করো।
+5) Phone-এর Text-to-Speech Bengali voice select করো।
+6) True local AI চাইলে compatible on-device quantized model/runtime add করতে হবে।

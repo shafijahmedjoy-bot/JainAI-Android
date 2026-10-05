@@ -1,0 +1,27 @@
+Jain AI PC verification report
+Date: 2026-10-05
+
+Checks performed:
+1. Automated functional test suite — PASS
+2. Functional test suite repeated — PASS
+3. Functional test suite repeated — PASS
+4. Functional test suite repeated — PASS
+5. Functional test suite repeated — PASS
+6. Functional test suite repeated — PASS
+7. Functional test suite repeated — PASS
+8. Functional test suite repeated — PASS
+9. Functional test suite repeated — PASS
+10. Functional test suite repeated — PASS
+
+Additional checks:
+- Python syntax compilation — PASS
+- Avatar asset load — PASS
+- Voice WAV asset present — PASS
+- Android source structural checks — PASS
+- Android project contains no AndroidX runtime dependency — PASS
+
+Known limitations before production release:
+- No LLM model weights are bundled.
+- Exact voice cloning is not bundled; the supplied sample is a reference asset.
+- Android APK was not compiled in this environment because Android SDK/Gradle build tooling is not installed here.
+- Android true on-device LLM runtime/model still needs hardware-specific integration and benchmark on Samsung A20.
